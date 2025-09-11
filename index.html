@@ -4,23 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="favicon.ico" type="x-icon">
 
     <title>Portifólio.</title>
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a href="index.html" class="cabecalho__menu__link">Home</a>
+            <a href="about.html" class="cabecalho__menu__link">Sobre mim</a>
+        </nav>
+    </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">Oi, eu sou o <strong class="destaque-titulo">Samuel Evangelista de Oliveira</strong></h1>
-            <p class="apresentacao__conteudo__paragrafo">Olá! Sou Samuel Evangelista, desenvolvedor Front-end com especialidade em <span class="texto-destaque">React, HTML e CSS.</span> Ajudo pequenos negócios e designers a colocarem em prática boas ideias.</p>
+            <p class="apresentacao__conteudo__paragrafo">Olá! Sou Samuel Evangelista, desenvolvedor em <span class="texto-destaque">desenvolvimento.</span> Atualmente estudo para conseguir a transição de carreira, então acompanhe o meu desenvolvimento nas minhas redes. <span class="texto-destaque">Em constante aprendizado</span>.</p>
             <div class="apresentacao__links">
-                <a href="https://www.linkedin.com/in/samuel-evangelista-o/" class="apresentacao__links__link">Linkedin</a>
-                <a href="https://github.com/samuoli"class="apresentacao__links__link">Github</a>
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                <a href="https://github.com/samuoli" class="apresentacao__links__link">
+                    <img src="assets/icons8-github-logo-48.png" alt="Ícone Github">
+                    Github
+                </a>
+                <a href="https://www.linkedin.com/in/samuel-evangelista-7007301a0/" class="apresentacao__links__link">
+                    <img src="assets/icons8-linkedin-48.png" alt="Ícone Linkedin">
+                    Linkedin
+                </a>
             </div>
         </section>
-        <img src="eudetocaeditado-quadrado.png" alt="Imagem do Samuel">
+        <img src="assets/eudetocaeditado-quadrado.png" alt="Imagem do Samuel">
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p>Desenvolvido por Samuel Evangelista.</p>
+    </footer>
 </body>
 </html>
