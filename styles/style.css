@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root{
+    --cor-primaria: #556B2F;
+    --cor-secundaria: #EFF5D2;
+    --cor-terciaria: #FFC107;
+    --cor-cabecalho-hover: #daa405;
+    --cor-botao-hover: #607c2e;
+    --cor-letra-rodape: #252910;
+
+    --fonte-primaria: "Martian Mono", monospace;
+    --fonte-secundaria: "Roboto", sans-serif;
+}
 * {
     margin: 0;
     padding: 0;
@@ -7,12 +18,9 @@
 
 body {
     box-sizing: border-box;
-    background-color: #556B2F;
-    color: #EFF5D2;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
     
-}
-a {
-    color: #8FA31E;
 }
 
 .cabecalho{
@@ -25,22 +33,22 @@ a {
 }
 
 .cabecalho__menu__link{
-    font-family: "Martian Mono", monospace;
+    font-family: var(--fonte-primaria);
     font-size: 24px;
     font-weight: 600;
     text-decoration: none;
-    color: #FFC107;
+    color: var(--cor-terciaria);
 }
 .cabecalho__menu__link:hover{
     font-size: 25px;
-    color: #daa405;
+    color: var(--cor-cabecalho-hover);
 }
 
 .destaque-titulo{
-    color: #FFC107;
+    color: var(--cor-terciaria);
 }
 .texto-destaque{
-    color: #FFC107;
+    color: var(--cor-terciaria);
 }
 
 .apresentacao{
@@ -60,13 +68,13 @@ a {
 
 .apresentacao__conteudo__titulo{
     font-size: 36px;
-    font-family: "Martian Mono", monospace;
+    font-family: var(--fonte-primaria);
 
 }
 
 .apresentacao__conteudo__paragrafo{
     font-size: 24px;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--fonte-secundaria);
 }
 
 .apresentacao__links{
@@ -78,7 +86,7 @@ a {
 }
 
 .apresentacao__links__subtitulo{
-    font-family: "Martian Mono", monospace;
+    font-family: var(--fonte-primaria);
     font-size: 24px;
     font-weight: 400;
 }
@@ -87,8 +95,8 @@ a {
     display: flex;
     justify-content: center;
     gap: 16px;
-    border: 3px solid #FFC107;
-    color: #EFF5D2;
+    border: 3px solid var(--cor-terciaria);
+    color: var(--cor-secundaria);
     width: 378px;
     text-align: center;
     border-radius: 8px;
@@ -96,19 +104,19 @@ a {
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
-    font-family: "Martian Mono", monospace;
+    font-family: var(--fonte-primaria);
 }
 
 .apresentacao__links__link:hover{
-    background-color: #607c2e;
+    background-color: var(--cor-botao-hover);
     font-size: 28px;
 }
 
 .rodape{
     text-align: center;
-    background-color: #FFC107;
-    color: #252910;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-letra-rodape);
     padding: 24px;
-    font-family: "Martian Mono", monospace;
+    font-family: var(--fonte-primaria);
     font-weight: 400;
 }
