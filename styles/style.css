@@ -34,13 +34,13 @@ body {
 
 .cabecalho__menu__link{
     font-family: var(--fonte-primaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
     color: var(--cor-terciaria);
 }
 .cabecalho__menu__link:hover{
-    font-size: 25px;
+    font-size: 1.57rem;
     color: var(--cor-cabecalho-hover);
 }
 
@@ -60,20 +60,20 @@ body {
 }
 
 .apresentacao__conteudo{    
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
 .apresentacao__conteudo__titulo{
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--fonte-primaria);
 
 }
 
 .apresentacao__conteudo__paragrafo{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
 }
 
@@ -87,29 +87,33 @@ body {
 
 .apresentacao__links__subtitulo{
     font-family: var(--fonte-primaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
-.apresentacao__links__link{
+.apresentacao__links__navegacao{
     display: flex;
     justify-content: center;
     gap: 16px;
     border: 3px solid var(--cor-terciaria);
     color: var(--cor-secundaria);
-    width: 378px;
+    width: 50%;
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
     font-family: var(--fonte-primaria);
 }
 
-.apresentacao__links__link:hover{
+.apresentacao__links__navegacao:hover{
     background-color: var(--cor-botao-hover);
-    font-size: 28px;
+    font-size: 1.75rem;
+}
+
+.apresentacao__imagem{
+    width: 50%;
 }
 
 .rodape{
